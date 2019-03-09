@@ -1,0 +1,27 @@
+.img-contenedor {
+    overflow: hidden;
+    /*esta propiedad evita que la imagen ocupe mas espacio que su contenedor*/
+    width: 100%;
+    border: 5px solid #FFF;
+    box-sizing: border-box;
+    float: left;
+}
+
+.img-contenedor img {
+    transition: all .4s ease;
+    width: 100%;
+}
+
+.img-contenedor img:hover {
+    /* FOTO GIRA AL POSICIONAR MOUSE */
+    transform: scale(1) rotate(10deg);
+
+    /* FOTOS SE ACLARA AL POSICIONAR MOUSE */
+    opacity: 0.6;
+}
+
+.contenedor {
+    margin: 100px auto;
+    max-width: 960px;
+    width: 100%;
+}
